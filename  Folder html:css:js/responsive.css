@@ -1,0 +1,48 @@
+
+
+
+
+@media screen and (max-height:700px ) {
+  .body{
+    
+ height: 100%;
+ 
+
+    
+    
+    
+    }
+}
+
+
+@media screen and (max-height:700px  ) {
+  
+  #gridSub{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1rem;
+ }
+}
+
+
+  
+@media screen and (max-height:700px ) {
+   
+    .wrapper {
+
+      display: flex;
+      flex-direction:column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: space-between;
+   
+}
+  }
+
+  /*
+@media screen and (max-width: 995px), 
+       screen and (max-height: 700px) {
+  ...
+}
+
+*/

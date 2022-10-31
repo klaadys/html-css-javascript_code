@@ -1,0 +1,90 @@
+
+
+
+
+
+.wrapper {
+
+  display:flex
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  flex-grow:;
+  margin-left: 40px;
+  margin-top: auto;
+  padding: 40px;
+  
+}
+
+
+
+
+.divNnano{
+ 
+}
+
+.title-advance{
+
+
+
+}
+
+#gridSub{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  grid-gap: 2rem;
+}
+
+.boxOne
+{
+ 
+ 
+  
+}
+
+.boxTwo{
+ 
+  
+  
+}
+.boxThree{
+  
+}
+
+.boxFour{
+  
+}
+
+
+.boxFive{
+}
+ 
+  
+.boxSix{
+ 
+ 
+  
+}
+
+.boxSeven{
+ 
+  
+  
+}
+
+
+.boxOne,
+.boxTwo,
+.boxThree,
+.boxFour,
+.boxFive,
+.boxSix,
+.boxSeven,
+ {
+  
+   
+ 
+  
+}

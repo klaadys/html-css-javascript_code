@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h2> Defi Operateur Arithmetic</h2>
+  <p>
+  Pierre, Jeanne est Paul jouent aux billes pendant la récréation.
+
+Pierre a 10 billes, Jeanne en a 15 et Paul, 5.
+
+À chaque partie, le joueur gagnant prend la bille de ses adversaires.
+
+Pierre gagne les deux premières parties.
+
+Jeanne gagne la troisième.
+
+Paul la quatrième, et Jeanne la cinquième.
+
+Jeremy arrive avec un sac plein de calots et propose à chacun d’échanger ses calots contre des billes, avec chacun un arrangement différent.
+
+Pour Pierre, 1 calot = 4 billes.
+
+Pour Jeanne, 1 calot = 2 billes.
+
+Pour Paul, 1 calot = 3 billes.
+
+Pierre, Paul et Jeanne décident d'échanger le maximum de billes avec Jeremy.
+
+Pour réaliser cet exercice, vous aurez besoin de travailler sur l'environnement de travail :
+
+
+
+Question
+Combien restera-t-il de billes et de calots à Pierre, Paul et Jeanne à la fin de la récréation ?
+
+Indice
+Pensez à l'opérateur %.
+Solution
+  
+</p>
+
+<script>
+
+ // ECRIVONS LES VARIABLES DE CHAQUE JOUEUR EN FONCTION DES BILLES  APPORTER AVANT LE JEUX
+
+ const billePierre =10;
+console.log( billePierre);
+
+const billeJeanne =15;
+console.log(billeJeanne);
+
+const billePaul=5;
+console.log(billePaul);
+
+
+
+
+//  RESUTATS
+
+//pour  nombre de bille gagner pendant le jeux
+
+// Pour pierre vient de gagner la 1ere et la 2eme
+
+// => bille de Pierre +1 + 1+1 + 1; 
+ billePierre +4; 
+// => bille de Jeanne -1  
+ billeJeanne -1;  
+//=> bille de Paul -1 
+billePaul -1;
+
+
+
+// Pour Jeanne vient de gagner la 3ere la 5ere 
+
+// => bille de Pierre -1 
+ billePierre -1 ; 
+// => bille de Jeanne +1+1+1 +1;
+ billeJeanne +4 ;  
+//=> bille de Paul -1 
+ billePaul -1 ;
+
+
+// Pour Paul vient de gagner la 4ere 
+
+// => bille de Paul +1 +1
+ billePierre -1 ; 
+// => bille de Jeanne -1  
+ billeJeanne -1  ;  
+//=> bille de Paul +1 +1 
+billePaul +2;
+
+
+
+
+ //RECAPITURATIF DU NOMBRE DE BILLE  PAR LES JOUEUR A LA FIN DE LA PARTIE  
+
+ //PIERRE
+   billePierre +4; 
+
+
+//JEANNE
+ billeJeanne +4;  
+
+
+//PAUL
+billePaul +2 ;
+
+
+//bille restant a la fin du jeu
+//Pour Pierre, 1 calot = 4 billes.
+
+const billeRestantPierre=billePierre%4;
+console.log(billeRestantPierre);
+
+const calotBillePierre=(billePierre-billeRestantPierre)/4;
+console.log(calotBillePierre);
+
+//Pour Jeanne, 1 calot = 2 billes.
+
+const billeRestantJeanne=billeJeanne%2;
+console.log(billeRestantJeanne);
+
+const calotBilleJeanne=(billeJeanne-billeRestantJeanne)/2;
+console.log(calotBilleJeanne);
+
+//Pour Paul, 1 calot = 3 billes.
+
+const billeRestantPaul=billePaul%3;
+console.log(billeRestantPaul);
+
+const calotBillePaul=(billePaul-billeRestantPaul)/3;
+console.log(calotBillePaul);
+
+</script>
+
+
+</body>
+</html>

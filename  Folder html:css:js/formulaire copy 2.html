@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <form action="" method="get" class="form-example">
+            <div class="form-example">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+        <div>
+            <label for="name">Name (4 to 8 characters):</label>
+
+            <input type="text" id="name" name="name" required
+                   minlength="4" maxlength="8" size="10">
+            
+            </div>
+            <div>
+                <fieldset>
+                <legend>Choose your favorite monster</legend>
+            
+                <input type="radio" id="kraken" name="monster">
+                <label for="kraken">Kraken</label><br/>
+            
+                <input type="radio" id="sasquatch" name="monster">
+                <label for="sasquatch">Sasquatch</label><br/>
+            
+                <input type="radio" id="mothman" name="monster">
+                <label for="mothman">Mothman</label>
+            </fieldset>
+        </div>
+        <div class="preference">
+            <label for="cheese">Do you like cheese?</label>
+            <input type="checkbox" name="cheese" id="cheese">
+        </div>
+        
+        <div class="preference">
+            <label for="peas">Do you like peas?</label>
+            <input type="checkbox" name="peas" id="peas">
+        </div>
+        <div>
+        <button class="favorite styled"
+        type="button">
+    Add to favorites
+    </button>
+</div>
+<div>
+    <label for="pet-select">Choose a pet:</label>
+
+    <select id="pet-select">
+        <option value="">--Please choose an option--</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+    </select>
+    <label for="pet-select">Choose a pet:</label>
+
+
+    
+    </div>
+    <div>
+        <label for="ice-cream-choice">Choose a flavor:</label>
+        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+        
+        <datalist id="ice-cream-flavors">
+            <option value="Chocolate">
+            <option value="Coconut">
+            <option value="Mint">
+            <option value="Strawberry">
+            <option value="Vanilla">
+        </datalist>
+    </div>
+<div>
+    <label for="story">Tell us your story:</label>
+
+    <textarea id="story" name="story"
+              rows="5" cols="33">
+    It was a dark and stormy night...
+    </textarea>
+    
+    </div>
+<div>
+    <label for="dino-select">Choose a dinosaur:</label>
+    <select id="dino-select">
+        <optgroup label="Theropods">
+            <option>Tyrannosaurus</option>
+            <option>Velociraptor</option>
+            <option>Deinonychus</option>
+        </optgroup>
+        <optgroup label="Sauropods">
+            <option>Diplodocus</option>
+            <option>Saltasaurus</option>
+            <option>Apatosaurus</option>
+        </optgroup>
+    </select>
+</div>
+<di>
+    <div id="submit from">
+        <label>Test field: <input type="text"></label>
+        <br><br>
+        <button type="submit">Submit form</button>
+    </div
+      <p id="log"></p>
+</div>
+        
+
+    </form>
+</body>
+</html>

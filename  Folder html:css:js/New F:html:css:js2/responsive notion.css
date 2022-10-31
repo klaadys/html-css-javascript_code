@@ -1,0 +1,40 @@
+/*Le positionnement à droite peut se faire par 
+l'utilisation de float: right;.*/
+
+.change-width{/*change-width : elle devra afficher la bordure de l’élément
+     et s'assurer que sa largeur soit toujours de 40 % de la largeur du parent.*/
+border-style: solid ;
+width: 40%;
+}
+
+
+div {
+    
+      font-size: 16px;
+      /*Cette valeur peut être changée pour modifier 
+      la hauteur des éléments ayant la classe change-height*/
+    
+    }
+
+
+.change-height{/*change-height : elle devra afficher la bordure de l'élément 
+    et s'assurer que sa hauteur soit toujours le double de la police de l’élément parent (div).*/
+    border-style: solid ;
+    height: 2em;
+
+}
+
+
+.bottom-right{/*bottom-right : elle devra placer l'élément à droite de la page,
+     s'assurer que sa largeur soit toujours de la moitié de la largeur de la page, et le colorer en rouge.*/
+    float: right;
+background: red;
+width: 50%;
+}
+
+
+.change-viewport{/*change-viewport : elle devra définir une taille de police 
+    correspondant à 7 % de la hauteur du viewport.*/
+    height: 7vh;
+
+}

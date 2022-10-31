@@ -1,0 +1,19 @@
+.body{
+  width: 110vw;
+ height: 110vh;
+ border:solid 2px #000080 ;
+ background-color: blanchedalmond;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding:5%;
+ margin:8% ;
+}
+h1,
+p{
+  font: 1em sans-serif;
+  color: rgb(209, 31, 31);
+  background-color: rgb(241, 255, 240);
+}
+div{
+  border: 1px solid rgb(255, 0, 0);
+  background: blue;
+}

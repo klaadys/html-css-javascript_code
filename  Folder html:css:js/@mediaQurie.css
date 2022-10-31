@@ -1,0 +1,71 @@
+/*
+Pour mettre en application ce que nous venons de voir, vous allez créez une page HTML
+ sur votre environnement de travail VSCode et écrire la feuille CSS associée.
+
+Pour cela, vous réutiliserez le code HTML ainsi que la feuille CSS proposés ci-dessous,
+ et devrez écrire les media queries répondant aux question suivantes :*/
+
+
+ /*commentaire
+ L'élément HTML avec la classe first-block se positionne en bas de 
+ la page si la largeur de l'écran est inférieure à 760 px.*/
+
+.first-block {
+    border-style: solid;
+    width: 40%;
+  }
+  
+  .second-block {
+    border-style: solid;
+    height: 2em;
+  }
+  
+  .third-block {
+    float: right;
+    width: 50%;
+  }
+
+  
+  
+  /*
+  indice
+  Le positionnement en bas de la page peut se faire par l'utilisation de position: absolute; et bottom: 0;.*/
+
+  /*Resolution1
+  La media query suivante s'applique pour tous les appareils dont la largeur minimale est de 760px 
+   */
+  
+  
+  @media screen and (min-width 760px) {
+    .first-block{
+     
+        position: absolute;
+        bottom: 0;
+    }
+  }
+
+  /*Resolution2
+ 
+   
+  L'élément HTML avec la classe second-block ne doit faire que 75 % de la taille de son parent lors d'une impression.*/
+
+ 
+  @media print{
+   
+    .second-block{
+      
+
+        font-size: 75%;
+    }
+  }
+   /*Resolution3
+    L'élément HTML avec la classe third-block devient rouge lorsque 
+    la largeur de l'écran fait plus de 1024 px ou lorsque sa hauteur est inférieure à 800 px.*/
+
+   
+    @media screen ,(min-width: 1024 px),(max-height:800 px) {
+        .third-block {
+         
+            background: red;
+        }
+    }

@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!--
+    <h2>EXERCICE</h2>
+    <p>La moyenne d'un étudiant à un concours est égale à 12. Pour réussir, il fallait avoir au moins 10. Pour avoir une mention assez bien, il fallait avoir 12, une mention bien : 14, et très bien : 16.
+
+Pour chaque événement possible, écrivez une variable qui stocke si l’événement est vrai ou faux. Vous devrez trouver des noms de variables qui correspondent à la recherche.
+</p>
+<h2>SOLUTION</h2>
+<h2>variables qui correspondent à la recherche :</h2>
+<h3> les noms de variable trouvés:</h3>
+<ul>
+<li> moyen = average =  au moins 10</li>
+<li>amoyenne= hasaverage =  est égale à 12,</li>
+<li>Assez moyen=prettyaverage =  une mention assez bien, avoir 14,<</li>
+<li>bonmoyen=goodaverage =  une mention bien : 14,</h2>
+  <li>Moyenne élevée=highaverage = très bien : 16.</li>
+
+  </ul>
+  <h2>SOLUTION</h2>
+
+      <script>
+      /* 
+ // declartion de variable de l'evenement avoir la moyenne
+
+  const average = 10;
+  document.write(average);
+
+//l'evenement de n avoir pas la moyenne 
+//const underAverage = average < 10 ;
+//console.log(underAverage);
+
+   // l'événement avoir la moyenne
+
+const hasAverage = average >=10 ;
+document.write(hasAverage);
+
+// l'événement avoir une mention assez bien!
+
+const prettyAverage =average>=12 &&  average < 14;
+document.write(prettyAverage);
+
+// l'événement avoir une mention bien! 
+
+const goodAverage = average >= 14 && average < 16;
+document.write(goodAverage);
+
+// l'événement avoir très bien!
+
+const highAverage = average >= 16;
+document.write(highAverage);
+
+// 2 posibilite d'evenement de classement de mention
+
+let mention = average>=12;
+let mentionBis = prettyAverage||goodAverage||highAverage;
+document.write(average);
+document.write(prettyAverage,goodAverage,highAverage);
+  </script>
+  */
+  
+<h2>opreateur logique</h2>
+  <script>
+  const number1 = 9;
+const number2 = 10;
+document.write( number1, number2 );
+
+let result = number1 === 9 && number2 === 10
+console.log(result) // true, les 2 affirmations sont vrais
+
+result = number1 === 9 && number2 !== 10
+console.log(result) // false, seule la premiere affiramtion est vrai
+
+result = number1 === 9 || number2 !== 10
+console.log(result) // true, une des 2 affirmations est vrai
+
+result = !(number1 === 9 && number2 === 10)
+console.log(result) // false, !(expression) retourne son contraire
+    </script>
+    
+
+    <script>
+     
+
+     const myVariable = '25'
+const myVariable2 = 10
+const myVariable3 = 15
+const myVariable4 = '12'
+
+console.log(myVariable > myVariable2 && (myVariable3 > myVariable2 || myVariable4 === 12) && myVariable2 < myVariable4)
+    </script>
+     
+    <script>
+      const myVariable = '10'
+      const myVariable2 = 8
+
+    
+console.log(myVariable + myVariable2 === 108) // false
+
+console.log(myVariable + "" + myVariable2 === 108) // false
+
+
+console.log(myVariable + "" + myVariable2 == 108) // TRUE
+
+
+console.log(myVariable + myVariable2 = 18) // NAN
+
+
+
+    </script>
+ 
+    <script>
+      const personne = {name: 'Paul', age: 20};
+
+const {name} = personne
+console.log(name === 'Paul');
+    </script>
+-->
+    <script>
+      //Question
+// À l'aide de vos connaissances, 
+//retournez un code qui vérifiera que toutes les propriétés de l'objet car existent.
+ // const {car} = { type: 'BMW', color:'blue', doors: 3,airConditioner: true};
+  //const {type,color,doors,airConditioner}= {car};
+//console.log('type','color','doors','airConditioner')
+  const proprietersExstent = type && color && doors && airConditioner
+//correction du defi 
+const car = {
+  type: 'BMW',
+  color:'blue',
+  doors: 3,
+  airConditioner: true
+};
+
+const {color, type, doors, airConditioner} = car
+
+const ojectIsValid = color && type && doors && airConditioner;
+//partie ajouter en haut avec le nom de la variable proprietersExstent
+console.log(ojectIsValid);
+    </script>
+</body>
+</html>

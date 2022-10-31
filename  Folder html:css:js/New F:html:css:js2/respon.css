@@ -1,0 +1,60 @@
+/*Appliquez la notion
+Question
+Pour mettre en application ce que nous venons de voir, vous allez créer une page HTML sur votre environnement de travail VSCode et écrire la feuille CSS associée.
+
+Pour cela, vous réutiliserez le code HTML proposé ci-dessous et devrez écrire les classes CSS suivantes :
+
+
+
+Pour réaliser cet exercice, vous aurez besoin de travailler sur l'environnement de travail VSCode.*/
+
+
+  
+
+/*change-width : elle devra afficher la bordure de l’élément 
+et s'assurer que sa largeur soit toujours de 40 % de la largeur du parent.*/
+
+.change-width{
+    border-style: solid;
+width: 40%;
+}
+
+
+
+div{
+    
+    font-size: 16px;
+}
+
+
+/*change-height : elle devra afficher la bordure de l'élément et s'assurer que 
+sa hauteur soit toujours le double de la police de l’élément parent (div).
+*/
+
+.change-height{
+    border-style: solid;
+    height: 2rem;
+
+}
+
+
+/*bottom-right : elle devra placer l'élément à droite de la page, s'assurer que sa largeur soit toujours 
+de la moitié de la largeur de la page, et le colorer en rouge.
+*/
+
+/*
+indice
+Le positionnement à droite peut se faire par l'utilisation de float: right;.*/
+.bottom-right{
+    float: right;
+    width:50% ;
+background: red;
+}
+
+/*change-viewport : elle devra définir une taille de police correspondant à 7 % de la hauteur du viewport.
+*/
+
+.change-viewport{
+font-size: 7vh;
+
+}

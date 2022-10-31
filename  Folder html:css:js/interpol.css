@@ -1,0 +1,519 @@
+
+/* **** header and logo ******/
+
+*,
+body{
+    box-sizing: border-box;
+
+}
+
+/*@import url();*/
+
+body{
+   
+   padding:auto;
+   
+   background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+   url("mapvapko.png" style="width:300px; height:200px;");
+   background-repeat: no-repeat;
+}
+
+header,
+div.form,
+.formulaire-Contact{
+   display: flex;
+}
+
+header,
+div.form,
+.formulaire-Contact{
+   background-color:#ffff8080; 
+}
+
+header,
+.content,
+.map{
+border-radius:30px ;
+}
+
+
+header{
+   margin:2%;
+   flex-direction:column;
+   width: 100%;
+   height:300px;
+ position: relative;
+       
+}
+
+
+.logo,
+form.Champ-username,
+form.Champ-mail,
+form.Champ-password,
+form.Champ-tel{font-weight: 700;
+}
+
+
+
+.logo{
+   margin-top:auto;
+   margin-left:1%;
+   margin-right:0%;
+   color: #d4418b;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   width: 15.4vw;
+   height:27.27vh;
+   border: solid 0.2em white;
+   border-radius:100%;
+   background:rgb(233, 203, 128);
+   box-shadow: 2px 1.5px gold, -1em 0 .4em wheat;
+   position: sticky;
+}
+
+
+
+
+
+div.form,
+.formulaire-Contact{
+flex-direction:row;
+}
+
+
+.content{
+   display: flex;
+   flex-direction:row;
+   margin-left:18%;
+   margin-right:5%;
+   margin-top: 5%;
+   text-align:center;
+   color: #ca1616;
+  
+   background-color:#d6dbca;
+   width:70vw;
+   height:15vh;
+   border: solid 0px;
+   position:fixed;
+}
+
+
+
+
+
+
+
+div.form,
+.formulaire-Contact{
+justify-content: center;
+align-items: center;
+   width: 80%;
+   height:70px;
+   border: solid 0px; 
+   margin-top:2%;
+   margin-left:18%;
+   margin-right:0%;
+   padding: auto;
+   position: relative;
+  
+}
+
+form.Champ-username{
+   width: 80%;
+   margin-left:5% ;
+   color:#fffaf0
+   
+}
+
+form.Champ-mail{
+  margin-right:5%;  
+   width: 80%;
+   color: #242011;
+   
+}
+
+form.Champ-password{
+   width: 80%;
+   color: rgb(69, 69, 219)
+
+   
+}
+form.Champ-tel{
+   width: 80%;
+   color: #dc143c;
+   
+}
+
+form.champ-validation{
+   width: 80%;
+   color:#21bd21;
+   text-transform: capitalize;
+   box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
+
+/*form.champ-textarea{
+   margin-right: 10%;
+   margin-left:10% ;
+   width: 400px; 
+   color:rgba(248, 33, 33, 0.767) ;
+   height: 40px;
+   box-shadow: 3px 3px #e75252, -1em 0 .4em wheat;
+   
+
+}*/
+.map
+{
+   background:rgb(207, 223, 230);
+    margin: 0 auto;
+    padding: 10px;
+    width: 340px;
+    height: 300px;
+    text-align: center;
+       
+     
+}
+.img{
+   background:rgb(207, 223, 230);
+   
+   background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+   url("mapvapko.png" style="width:300px; height:200px;");
+   background-repeat: no-repeat;
+     
+}
+
+
+
+
+
+/*..................fornulaire.....................*/
+
+div.information-utilisateur,
+.Immatriculation{
+margin:0;
+padding:0;
+height: 100%;
+display:flex;
+flex-direction:column;
+justify-content:start;
+}
+
+
+div.utilisateur,
+.Nom,
+.localisation,
+.preNom,
+.date,
+.Pays-Naisance,
+.Identite,
+.Civilite{
+   margin-top: auto;
+   padding: auto;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   
+   border: 1px solid black;
+   height: 28px;
+}
+
+div.Genre,
+.Marque,
+.Numero,
+.Puissance,
+.Numero-Immatriculation-Origine,
+.Pays-Origine,
+.Observation,
+.Destination-Date,
+.Numéro-Réimmatriculation
+{
+
+   border: 0px solid black;
+   height: 30px;
+}
+
+
+div.Signature,
+.Chargé
+{
+
+   border: 0px solid black;
+   height: 32px;
+}
+
+div.information-utilisateur{
+border: solid 1px;
+}
+
+
+div.Immatriculation{
+   border: solid 1px;
+}
+
+div.bloc-Signature{
+   border: solid 1px;
+}
+
+fieldset.formulaire-Payer{
+   border: solid 1px;
+}
+
+
+
+
+
+footer{
+   /*div.Connecter,
+div.Déconnecter{
+   margin: 0;
+   padding: 0;
+   width: 10%;
+   height: 15px;
+   font-weight:700;
+   front-family:sans-serif; 
+   border-radius:30px;
+
+}
+
+div.Connecter{
+   background-color: green;
+}
+div.Déconnecter{
+background-color: blue;
+
+}*/
+
+
+@import url();
+
+body{
+   
+   
+   padding:auto;
+   box-sizing: border-box;
+   background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+   url("../../media/examples/lizard.png"); ;
+   background-repeat: no-repeat;
+}
+
+header{
+   margin:2%;
+   display: flex;
+   flex-direction:column;
+   width: 100%;
+   height: 100%;
+       background-color:;
+       position: relative;
+       
+}
+
+.content{
+   display: flex;
+   flex-direction: row;
+   margin-left:17%;
+   margin-top: 5%;
+   text-align:center;
+   color: rgb(202, 22, 22);
+   border-radius:30px ;
+   background-color:rgb(214, 219, 202);
+   width:80%;
+   height: 100px;
+   border: solid 0px;
+   position:fixed;
+}
+
+.logo{
+   margin-top:1%;
+   margin-left:0%;
+   margin-right:1%;
+   color: #85124b;
+   font-weight: 700;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   width: 200px;
+   height:200px;
+   border: solid 4px white;
+   border-radius:100%;
+   background:rgb(233, 203, 128);
+   box-shadow: 3px 3px gold, -1em 0 .4em wheat;
+   position: sticky;
+}
+
+
+
+
+
+
+
+div.form,
+.formulaire-Contact{
+display: flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+   width: 80%;
+   height:70px;
+   border: solid 0px;
+   background-color: ;
+   margin-top:2%;
+   margin-left:18%;
+   margin-right:0%;
+   
+
+   padding: auto;
+   position: relative;
+  
+}
+
+form.Champ-username{
+   width: 80%;
+   margin-left:5% ;
+  font-weight:700;
+   border-radius:20 px; 
+   color:#fffaf0
+   
+}
+
+form.Champ-mail{
+  margin-right:5%;
+   font-weight:700;
+   width: 80%;
+   border-radius: 20px; 
+   color: #242011;
+   
+}
+
+form.Champ-password{
+  
+   font-weight: 700;
+   width: 80%;
+   border-radius: 20px; 
+   color: rgb(69, 69, 219)
+
+   
+}
+form.Champ-tel{
+ 
+   font-weight: 700;
+   width: 80%;
+   border-radius: 20px; 
+   color: #dc143c;
+   
+}
+
+form.champ-validation{
+  
+   width: 80%;
+   color:#21bd21;
+   text-transform: capitalize;
+   border-radius:30px;
+   box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
+
+/*form.champ-textarea{
+   margin-right: 10%;
+   margin-left:10% ;
+   width: 400px; 
+   color:rgba(248, 33, 33, 0.767) ;
+   height: 40px;
+   box-shadow: 3px 3px #e75252, -1em 0 .4em wheat;
+   
+
+}*/
+div.map{
+   background:rgb(207, 223, 230);
+   border-radius: 30px;
+   height: 20%;
+   width: 20%;
+}
+
+
+
+
+
+/*..................fornulaire.....................*/
+
+div.information-utilisateur,
+.Immatriculation{
+margin:0;
+padding:0;
+height: 100%;
+display:flex;
+flex-direction:column;
+justify-content:start;
+}
+
+
+div.utilisateur,
+.Nom,
+.localisation,
+.preNom,
+.date,
+.Pays-Naisance,
+.Identite,
+.Civilite{
+   margin-top: auto;
+   padding: auto;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   
+   border: 1px solid black;
+   height: 28px;
+}
+
+div.Genre,
+.Marque,
+.Numero,
+.Puissance,
+.Numero-Immatriculation-Origine,
+.Pays-Origine,
+.Observation,
+.Destination-Date,
+.Numéro-Réimmatriculation
+{
+
+   border: 0px solid black;
+   height: 30px;
+}
+
+
+div.Signature,
+.Chargé
+{
+
+   border: 0px solid black;
+   height: 32px;
+}
+
+div.information-utilisateur{
+border: solid 1px;
+}
+
+
+div.Immatriculation{
+   border: solid 1px;
+}
+
+div.bloc-Signature{
+   border: solid 1px;
+}
+
+fieldset.formulaire-Payer{
+   border: solid 1px;
+}
+
+
+
+
+
+footer{
+   margin-bottom: 0;
+   padding: aoto;
+width: auto;
+height: 10%;
+   background-color: rgb(236, 170, 236);
+}
+
+
+

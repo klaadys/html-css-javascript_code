@@ -1,0 +1,105 @@
+
+.body {
+ width: 110vw;
+ height: 110vh;
+ border:solid 2px #000080 ;
+ background-color: blanchedalmond;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding:5%;
+ margin:8% ;
+}
+
+.divNano,
+.title-advance{
+  padding:auto;
+  margin: 5px;
+  width: 30%;
+  height: 35%;
+  border:2px solid #000080;
+  border-radius: 2%;
+  text-align: center;
+}
+  
+
+
+
+.divNano{
+  background: hsl(190, 79%, 46%);
+   
+  }
+  
+  .title-advance{
+  background-color: hsl(184, 24%, 88%);
+ 
+  }
+
+  .divSub{
+    background-color: blue;
+    color: rgb(7, 54, 39);
+    width: 95vw;
+    height: 90%;
+    padding: 2%;
+    margin: 1%;
+    border: 2px solid black;
+    border-radius: 2%;
+    text-align: end;
+    justify-content: space-around;
+  }
+
+
+  .boxOne{
+    background: #ff0000;
+  }
+  
+  .boxTwo{
+    background: #ff0000;
+    
+  }
+
+  .boxThree{
+    background: #ff0000;
+  }
+  
+  .boxFour{
+    background: #ff0000;
+  }
+  
+  
+  .boxFive{
+    background: rgb(255,255,128) ;
+  }
+
+  .boxSix{
+    background: rgb(255,255,128) ;
+    
+  }
+
+  .boxSeven{
+    background: rgb(255,255,128) ;
+  }
+  
+  
+  .boxOne,
+  .boxTwo,
+  .boxThree,
+  .boxFour,
+  .boxFive,
+  .boxSix,
+  .boxSeven {
+    height:12em;
+    width: 20em;
+    padding:2%;
+    margin:1% ;
+    border: 1px solid rgb(230, 137, 137);
+   }
+
+   
+   .divName,
+   .divPhone-number{
+     background-color: rgb(173, 202, 226);
+     margin: 4px;
+     padding: 2px;
+   }
+    
+
+

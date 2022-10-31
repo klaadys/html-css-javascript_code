@@ -1,0 +1,47 @@
+.first-block { 
+    border-style: solid;
+    width: 40%;
+    
+  }
+  
+  .second-block {
+    border-style: solid;
+    height: 2em;
+    
+  }
+  
+  .third-block {
+    float: right;
+    width: 50%;
+    
+  }
+  /* indice Le positionnement en bas de la page peut se faire par
+   l'utilisation de position: absolute; et bottom: 0;.
+
+*/
+
+@media screen and (max-width: 760px){ 
+    .first-block { /*L'élément HTML avec la classe first-block se positionne en bas de la page si la largeur de l'écran est inférieure à 760 px.*/
+        border-style: solid;
+        position:absolute;
+        bottom: 0;
+        width: 40%;
+        
+}
+}
+
+@media print {
+    .second-block { /*L'élément HTML avec la classe second-block ne doit faire que 75 % de la taille de son parent lors d'une impression.*/
+        border-style: solid;
+        height: 2em;
+        width: 755;
+      }
+}
+    
+@media screen and (min-width: 1024px), (max-heigth:800px) {
+    .third-block { /*L'élément HTML avec la classe third-block devient rouge lorsque la largeur de l'écranfait plus de 1024 px ou lorsque sa hauteur est inférieure à 800 px.*/
+        float: right;
+        width: 50%;
+        background: red;
+      }
+}

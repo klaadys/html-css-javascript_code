@@ -1,0 +1,98 @@
+
+*,
+.body,{
+  display: flex;
+}
+
+
+
+
+.wrapper {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  flex-grow:;
+  margin-left: 40px;
+  margin-top: auto;
+  padding: 40px;
+  
+}
+
+
+
+
+.divNnano{
+ 
+}
+
+.title-advance{
+
+
+
+}
+
+.divSub{
+
+
+}
+
+.boxOne
+{
+ 
+ 
+  
+}
+
+.boxTwo{
+ 
+  
+  
+}
+.boxThree{
+  
+}
+
+.boxFour{
+  
+}
+
+
+.boxFive{
+}
+ 
+  
+.boxSix{
+ 
+ 
+  
+}
+
+.boxSeven{
+ 
+  
+  
+}
+
+/*
+.boxOne,
+.boxTwo,
+.boxThree,
+.boxFour,
+.boxFive,
+.boxSix,
+.boxSeven,
+ {
+   
+  align-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding:10%;
+  color: rgb(0, 0, 0);
+
+}
+*/
